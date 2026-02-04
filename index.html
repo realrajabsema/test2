@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopApp | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module">
+        import { loadSharedUI } from '../public/js/utils.js';
+        loadSharedUI();
+    </script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <div id="navbar-placeholder"></div>
+
+    <main class="flex-grow flex items-center">
+        <section class="container mx-auto px-4 py-20 text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 tracking-tight">
+                Quality Goods for <br><span class="text-blue-600">Modern Living.</span>
+            </h1>
+            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                Experience a seamless shopping journey with our handpicked collection. 
+                Fast, secure, and designed for you.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="products.html" class="bg-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition shadow-lg shadow-blue-200">
+                    Explore Products
+                </a>
+                <a href="register.html" class="bg-white text-gray-900 border border-gray-200 px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-50 transition">
+                    Create Account
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+</body>
+</html>

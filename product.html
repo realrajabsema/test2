@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopApp | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="../public/js/api.js"></script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+    <div id="navbar-placeholder"></div>
+
+    <main class="flex-grow container mx-auto px-4 py-16 text-center">
+        <h1 class="text-5xl font-extrabold text-gray-900 mb-6">Modern Shopping Experience</h1>
+        <p class="text-xl text-gray-600 mb-10">Discover our curated collection of high-quality products.</p>
+        <a href="products.html" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+            Browse Products
+        </a>
+    </main>
+
+    <div id="footer-placeholder"></div>
+    <script type="module">
+        import { loadComponents } from '../public/js/utils.js';
+        loadComponents();
+    </script>
+</body>
+</html>
